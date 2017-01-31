@@ -1,0 +1,639 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@{
+	Layout = "Master.cshtml";
+}
+
+
+<!doctype html>
+<!--[if lt IE 7 ]> <html lang="en" class="no-js ie6"> <![endif]-->
+<!--[if IE 7 ]>    <html lang="en" class="no-js ie7"> <![endif]-->
+<!--[if IE 8 ]>    <html lang="en" class="no-js ie8"> <![endif]-->
+<!--[if IE 9 ]>    <html lang="en" class="no-js ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!-->
+<html lang="en" class="no-js">
+<!--<![endif]-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+    <meta name="description" content=''>
+    
+    <link rel="canonical" href="http://synergy-bs.uskinned.net/contact/"/>
+<title>Contact - uSkinned Synergy with Bootstrap Starter Kit</title>	<meta property="og:type" content="website">
+    <meta property="og:title" content="Contact - uSkinned Synergy with Bootstrap Starter Kit" />
+    <meta property="og:image" content="http://synergy-bs.uskinned.net/media/1002/og-uskinned.png" />
+    <meta property="og:url" content="http://synergy-bs.uskinned.net/contact/" />
+    <meta property="og:description" content="" />
+    <meta property="og:site_name" content="uSkinned Synergy with Bootstrap Starter Kit" />	
+
+
+    <!-- WEB FONT -->
+	<link href='http://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+
+    <!-- STYLESHEETS -->
+    <link rel="stylesheet" href="/css/bootstrap.css">
+    <link rel="stylesheet" href="/css/base.css">
+    <link rel="stylesheet" href="/css/plugins.css">
+    <link rel="stylesheet" href="/css/layout.css">
+    <link rel="stylesheet" href="/css/palette.css">
+	
+    <!-- INTERNAL STYLES -->
+        <style>
+        #site {
+            /*max-width: 1400px;*/
+        }
+
+        header #logo a {
+			text-indent:-9999px;
+            width: 220px;
+            height: 49px;
+            background-image: url('/media/1013/synergy_logo.png?width=220&amp;height=49');
+        }
+
+        @media (max-width:767px) {
+            header #logo a {
+                background-image: url('/media/1013/synergy_logo.png?width=220&amp;height=49');
+            }
+        }
+
+        @media only screen and (-webkit-min-device-pixel-ratio : 1.5), only screen and (min-device-pixel-ratio : 1.5), only screen and (-webkit-min-device-pixel-ratio : 2), only screen and (min-device-pixel-ratio : 2) {
+            header #logo a {
+                background-image: url('/media/1013/synergy_logo.png');
+                background-size: 220px 49px;
+            }
+        }
+    </style>
+
+
+    <!-- SCRIPTS -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
+    <script src="/scripts/bootstrap.js"></script>
+    <script src="/scripts/plugins.js"></script>
+    <script src="/scripts/application.js"></script>
+    <script src="/scripts/jquery.validate.min.js"></script>
+    <script src="/scripts/jquery.validate.unobtrusive.min.js"></script>
+    <script src="/scripts/jquery.unobtrusive-ajax.min.js"></script>
+
+	<!--[if IE]>
+    <link rel="stylesheet" href="/css/ie.css">
+    <![endif]-->
+	
+    <!--[if lt IE 9]>
+    <script src="//oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="//oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+	
+    <!-- ICONS -->
+            <link rel="shortcut icon" href="/media/1001/logo.png?width=32&height=32" type="image/png" />
+        <link rel="apple-touch-icon" sizes="57x57" href="/media/1001/logo.png?width=57&height=57">
+        <link rel="apple-touch-icon" sizes="60x60" href="/media/1001/logo.png?width=60&height=60">
+        <link rel="apple-touch-icon" sizes="72x72" href="/media/1001/logo.png?width=72&height=72">
+        <link rel="apple-touch-icon" sizes="76x76" href="/media/1001/logo.png?width=76&height=76">
+        <link rel="apple-touch-icon" sizes="114x114" href="/media/1001/logo.png?width=114&height=114">
+        <link rel="apple-touch-icon" sizes="120x120" href="/media/1001/logo.png?width=120&height=120">
+        <link rel="apple-touch-icon" sizes="144x144" href="/media/1001/logo.png?width=144&height=144">
+        <link rel="apple-touch-icon" sizes="152x152" href="/media/1001/logo.png?width=152&height=152">
+        <link rel="apple-touch-icon" sizes="180x180" href="/media/1001/logo.png?width=180&height=180">
+        <link rel="icon" type="image/png" href="/media/1001/logo.png?width=16&height=16" sizes="16x16">
+        <link rel="icon" type="image/png" href="/media/1001/logo.png?width=32&height=32" sizes="32x32">
+        <link rel="icon" type="image/png" href="/media/1001/logo.png?width=96&height=96" sizes="96x96">
+        <link rel="icon" type="image/png" href="/media/1001/logo.png?width=192&height=192" sizes="192x192">
+        <meta name="msapplication-square70x70logo" content="/media/1001/logo.png?width=70&height=70" />
+        <meta name="msapplication-square150x150logo" content="/media/1001/logo.png?width=150&height=150" />
+        <meta name="msapplication-square310x310logo" content="/media/1001/logo.png?width=310&height=310" />
+
+
+
+    
+    
+
+</head>
+
+    <body>
+
+<!-- SITE -->
+<div id="site">
+    
+    <!-- HEADER -->
+    <header>
+	<div class="container">
+		
+		<!-- LOGO -->
+		    <div id="logo"><a href="/">uSkinned Synergy with Bootstrap Starter Kit</a></div>
+
+
+		<!--// LOGO -->
+		
+		<!-- NAVIGATION -->
+		<div class="navigation">
+
+			<!-- EXPAND -->
+			<a class="expand">
+				<em>Menu</em>
+				<span class="line top"></span>
+				<span class="line mid"></span>
+				<span class="line bottom"></span>
+			</a>
+			<!--// EXPAND -->
+			<!-- REVEAL -->
+			<div class="reveal">
+
+				
+        <nav class="main">
+            <ul>
+                        <li >
+                            <a href="/"   >
+                                <span>
+                                    Home
+                                </span>
+                            </a>
+                                                    </li>
+                        <li  class="has_child">
+                            <a href="/listing/"   >
+                                <span>
+                                    Listing
+                                </span>
+                            </a>
+                                <i class="fa fa-angle-down after"></i>
+                                <ul>
+            <li  class="has_child">
+                <a  href="/listing/2nd-level-page/">
+                    <span>
+2nd Level Page                    </span>
+                </a>
+                    <i class="fa fa-angle-down after hidden-md hidden-lg"></i><i class="fa fa-angle-right after hidden-sm hidden-xs"></i>
+                    <ul>
+            <li >
+                <a  href="/listing/2nd-level-page/3rd-level-page/">
+                    <span>
+3rd Level Page                    </span>
+                </a>
+                            </li>
+    </ul>
+            </li>
+            <li  class="has_child">
+                <a  href="/listing/advanced-2nd-level-page/">
+                    <span>
+Advanced 2nd Level Page                    </span>
+                </a>
+                    <i class="fa fa-angle-down after hidden-md hidden-lg"></i><i class="fa fa-angle-right after hidden-sm hidden-xs"></i>
+                    <ul>
+            <li >
+                <a  href="/listing/advanced-2nd-level-page/advanced-3rd-level-page/">
+                    <span>
+Advanced 3rd Level Page                    </span>
+                </a>
+                            </li>
+    </ul>
+            </li>
+    </ul>
+                        </li>
+                        <li  class="has_child">
+                            <a href="/layouts/"   >
+                                <span>
+                                    Layouts
+                                </span>
+                            </a>
+                                <i class="fa fa-angle-down after"></i>
+                                <ul>
+            <li >
+                <a  href="/layouts/content-left/">
+                    <span>
+Content Left                    </span>
+                </a>
+                            </li>
+            <li >
+                <a  href="/layouts/content-right/">
+                    <span>
+Content Right                    </span>
+                </a>
+                            </li>
+            <li >
+                <a  href="/layouts/content-center-navigation-left/">
+                    <span>
+Content Center (Navigation left)                    </span>
+                </a>
+                            </li>
+            <li >
+                <a  href="/layouts/content-center-navigation-right/">
+                    <span>
+Content Center (Navigation right)                    </span>
+                </a>
+                            </li>
+            <li >
+                <a  href="/layouts/content-full-width/">
+                    <span>
+Content Full Width                    </span>
+                </a>
+                            </li>
+    </ul>
+                        </li>
+                        <li >
+                            <a href="/standard-page/"   >
+                                <span>
+                                    Standard Page
+                                </span>
+                            </a>
+                                                    </li>
+                        <li >
+                            <a href="/advanced-page/"   >
+                                <span>
+                                    Advanced Page
+                                </span>
+                            </a>
+                                                    </li>
+                        <li >
+                            <a href="/blog/"   >
+                                <span>
+                                    Blog
+                                </span>
+                            </a>
+                                                    </li>
+                        <li >
+                            <a href="/contact/"  class="active"  >
+                                <span>
+                                    Contact
+                                </span>
+                            </a>
+                                                    </li>
+            </ul>
+        </nav>
+
+
+
+
+					
+    <nav class="top col-md-9 col-md-pull-3 col-sm-10 col-sm-pull-2 pull-right">
+        <ul class="pull-right">
+                    <li>
+                        <a class="secondary_colour_1-text" href="/privacy-policy/"  >Privacy Policy</a>      
+                    </li>
+                    <li>
+                        <a class="secondary_colour_1-text" href="/sitemap/"  >Sitemap</a>      
+                    </li>
+
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fa fa-user highlight"></i>Members Area<i class="fa fa-angle-down after"></i></a>
+                        <ul class="dropdown-menu pull-right" role="menu">
+                            <li><a href="/login/"><i class="fa fa-sign-in"></i>Login</a></li>
+                        </ul>
+                    </li>
+        </ul>                                                            
+	</nav> 
+
+
+
+
+				<!-- SITE SEARCH -->
+					<div class="site_search col-md-3 col-sm-2 col-xs-12">
+		<form class="navbar-form" role="search" action="/search-results/" method="get" name="searchForm">
+			<div class="form-group">
+                <input type="text" class="form-control" id="search_field" name="search_field" placeholder='Search the site'>
+			</div>
+			<button type="submit" class="btn primary_colour_1-text"><i class="glyphicon glyphicon-search"></i></button>
+		</form>
+	</div>
+
+
+				<!--// SITE SEARCH -->
+
+			</div>
+			<!--// REVEAL -->
+		</div>
+		<!--// NAVIGATION -->
+				
+	</div>
+    </header>
+    <!--// HEADER -->
+	
+    <!-- BREADCRUMB -->
+    
+        <section class="content short secondary_colour_2-bg">
+            <div class="container">
+
+                <!-- ROW -->
+                <div class="row">
+                    <nav id="breadcrumb" class="col-xs-12">
+                        <ol class="breadcrumb">
+                                    <li id="br_1" itemscope itemtype="http://data-vocabulary.org/Breadcrumb"  itemref="br_2"><a href="/" itemprop="url"><span itemprop="title">Home</span></a></li>
+
+                                    <li id="br_2" itemscope itemtype="http://data-vocabulary.org/Breadcrumb" itemprop="child"><span itemprop="title">Contact</span></li>
+
+                        </ol>
+                    </nav>
+                </div>
+                <!--// ROW -->
+            </div>
+        </section>
+
+    <!--// BREADCRUMB -->
+    							
+    
+
+<!-- CONTENT -->
+<section class="content">
+    <div class="container">
+
+        <!-- ROW -->
+        <div class="row">
+
+			<div class="col-xs-12">
+           		<h1 class="heading">Contact</h1>
+			</div>
+
+    	</div>
+    	<!--// ROW -->
+
+        <!-- ROW -->
+        <div class="row">
+
+            <!-- CONTENT COL -->
+            <div id="left_col" class="col-sm-8 col-xs-12" role="main">
+
+            <!-- IMAGE -->
+            
+
+            <!--// IMAGE -->
+            
+
+            
+
+
+
+  
+
+
+                <!-- COMPONENT ANCHOR -->
+    <a id="pos_1317"></a>
+    <!--// COMPONENT ANCHOR -->
+    <!-- PAGE COMPONENT CODE -->
+    <div class="page_component codeblock">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m19!1m8!1m3!1d2239.0993250485117!2d-4.2518032!3d55.8609431!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x4888469f8c4a409f%3A0x7a1a40ad7c97365f!2sSt+Georges+Buildings%2C+5+St+Vincent+Pl%2C+Glasgow%2C+Glasgow+City+G1+2DH!3m2!1d55.8609431!2d-4.2518031999999994!5e0!3m2!1sen!2suk!4v1439392043710" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+    </div>
+    <!--// PAGE COMPONENT CODE -->
+                    <!-- COMPONENT ANCHOR -->
+                    <a id="pos_1318"></a>
+                        <!--// COMPONENT ANCHOR -->
+                    <div class="page_component contact">
+                        
+<form action="/umbraco/Surface/ContactFormSurface/HandleContactSubmit" data-ajax="true" data-ajax-loading="#ContactAjaxLoading1318" data-ajax-method="POST" data-ajax-mode="replace" data-ajax-update="#ContactFormContainer1318" id="form0" method="post"><input data-val="true" data-val-number="The field CurrentNodeID must be a number." data-val-required="The CurrentNodeID field is required." id="CurrentNodeID" name="CurrentNodeID" type="hidden" value="1318" /><input name="__RequestVerificationToken" type="hidden" value="VUbqo9eDtOFyt1fkeLJgXD2SQo056Ee0yzKqH8fHmdioRnS-oYEFLlp7PhovDNMXNlsuf4cnk-MVnSXU3gwHdP8emv4owwXq1SQ-ecb2XMk1" />    <div class="form ajax_wrap">
+
+        <div id="ContactFormContainer1318">
+            <div class="alert alert-danger alert-dismissible fade in" id="ContactError1318" style="display:none">
+            </div>
+            <fieldset>
+                <!-- ROW -->
+                <div class="row">
+                    <div class="form-group col-sm-6 col-xs-12">
+                        <label for="FirstName" class="control-label">
+                            First name <em class="req">*</em>
+                        </label>
+                        <input class="form-control" data-val="true" data-val-required="The FirstName field is required." id="FirstName" name="FirstName" type="text" value="" />
+                        <span class="field-validation-valid" data-valmsg-for="FirstName" data-valmsg-replace="false">The &#39;First name&#39; field is required</span>
+                    </div>
+                    <div class="form-group col-sm-6 col-xs-12">
+                        <label for="LastName" class="control-label">
+                            Last name <em class="req">*</em>
+                        </label>
+                        <input class="form-control" data-val="true" data-val-required="The LastName field is required." id="LastName" name="LastName" type="text" value="" />
+                        <span class="field-validation-valid" data-valmsg-for="LastName" data-valmsg-replace="false">The &#39;Last name&#39; field is required</span>
+                    </div>
+                </div>
+                <!--// ROW -->
+                <!-- ROW -->
+                <div class="row">
+                    <div class="form-group col-sm-6 col-xs-12">
+                        <label for="Email" class="control-label">
+                            Email address <em class="req">*</em>
+                        </label>
+                        <input autocapitalize="off" class="form-control" data-val="true" data-val-regex="The field Email must match the regular expression &#39;\w+([-+.&#39;]\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*&#39;." data-val-regex-pattern="\w+([-+.&#39;]\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*" data-val-required="The Email field is required." id="Email" name="Email" type="text" value="" />
+                        <span class="field-validation-valid" data-valmsg-for="Email" data-valmsg-replace="false">Please enter a valid Email address</span>
+                    </div>
+                    <div class="form-group col-sm-6 col-xs-12">
+                        <label for="Telephone" class="control-label">
+                            Telephone
+                        </label>
+                        <input class="form-control" id="Telephone" name="Telephone" type="tel" value="" />
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="Message" class="control-label">
+                        Message
+                    </label>
+                    <textarea class="form-control" cols="20" id="Message" name="Message" rows="5">
+</textarea>
+                </div>
+
+                    <div class="checkbox">
+                        <label for="NewsletterSignup"><input data-val="true" data-val-required="The NewsletterSignup field is required." id="NewsletterSignup" name="NewsletterSignup" type="checkbox" value="true" /><input name="NewsletterSignup" type="hidden" value="false" /> Tick the box to sign up to our newsletter</label>
+                    </div>
+            </fieldset>
+            <fieldset>
+                <button class="btn primary_colour_1-bg secondary_colour_3-text" type="submit">
+                    <span>Send</span>
+                </button>
+            </fieldset>
+            <div class="ajax_loading" id="ContactAjaxLoading1318" style="display:none">
+                <div class="loading">
+                    <span class="message">Your message is being sent, please wait.</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</form>
+                    </div>
+
+
+
+        	</div>
+        	<!--// CONTENT COL -->
+			
+        	<div id="right_col" class="col-sm-4 col-lg-3 col-lg-offset-1" role="complementary">			<!-- SUB  -->
+
+	
+  
+			<!--// SUB -->
+			<!-- PROMO PODS -->
+            <div class="promo_pods ">
+
+    <div class="item panel panel-default">
+        <div class="panel-body secondary_colour_1-bg">
+<a href="https://www.google.co.uk/maps/dir//St+Georges+Buildings,+5+St+Vincent+Pl,+Glasgow,+Glasgow+City+G1+2DH/@55.8609431,-4.2518032,17z/data=!4m13!1m4!3m3!1s0x4888469f8c4a409f:0x7a1a40ad7c97365f!2sSt+Georges+Buildings,+5+St+Vincent+Pl,+Glasgow,+Glasgow+City+G1+2DH!3b1!4m7!1m0!1m5!1m1!1s0x4888469f8c4a409f:0x7a1a40ad7c97365f!2m2!1d-4.2518032!2d55.8609431"  title="Link will open in a new window/tab"  target="blank"><p class="heading secondary_colour_3-text">uSkinned <i class="fa fa-external-link after"></i></p></a>
+<div class="info">
+            <div class="text secondary_colour_3-text"><p>St Georges Buildings<br />5 St Vincent Place<br />Glasgow G1 2DH</p>
+<p>Email. <a href="mailto:hello@uskinned.net">hello@uskinned.net</a></p></div>
+
+            <p class="link"><a href="https://www.google.co.uk/maps/dir//St+Georges+Buildings,+5+St+Vincent+Pl,+Glasgow,+Glasgow+City+G1+2DH/@55.8609431,-4.2518032,17z/data=!4m13!1m4!3m3!1s0x4888469f8c4a409f:0x7a1a40ad7c97365f!2sSt+Georges+Buildings,+5+St+Vincent+Pl,+Glasgow,+Glasgow+City+G1+2DH!3b1!4m7!1m0!1m5!1m1!1s0x4888469f8c4a409f:0x7a1a40ad7c97365f!2m2!1d-4.2518032!2d55.8609431"  title="Link will open in a new window/tab"  target="blank" class="btn secondary_colour_3-bg primary_colour_1-text">Directions<i class="fa fa-external-link after"></i></a></p>
+
+</div>        </div>
+    </div>
+            </div>
+
+			<!--// PROMO PODS -->
+</div>
+
+		</div>
+		<!--// ROW -->
+    
+
+    </div>
+</section>
+<!--// CONTENT -->
+
+
+
+
+
+
+    <!-- OUTRO STRIP -->
+    
+
+     <!--// OUTRO STRIP -->
+
+    <!-- FOOTER -->
+    <footer class="primary_colour_1-bg">
+        <div class="container">
+
+            <!-- ROW -->
+            <div class="row">
+
+                <div class="col-md-3 col-sm-5 col-xs-12">
+
+                    <!-- COMPANY DETAILS -->
+                        <div class="company_details">
+		<p class="heading">uSkinned</p>
+			<div class="text">
+		<address>
+			<p>St Georges Buildings <br />5 St Vincent Place<br />Glasgow G1 2DH</p>
+		</address>
+		</div>
+			<div class="text">
+		<p>Email. <a href="mailto:hello@uskinned.net">hello@uskinned.net</a></p>
+		</div>
+	</div> 
+
+                    <!--// COMPANY DETAILS -->
+
+                </div>
+
+                <div class="col-md-5 col-sm-6 col-xs-12">
+
+                    	
+        <div class="quick_links">
+	        <p class="heading">Quick links</p>
+					<nav class="row">
+			    <ul>
+                    <li class="col-lg-4 col-xs-6">
+                        <a href="/listing/"  >
+                            <i class="fa fa-angle-right"></i>Listing
+                        </a>
+                    </li>
+                    <li class="col-lg-4 col-xs-6">
+                        <a href="/layouts/"  >
+                            <i class="fa fa-angle-right"></i>Layouts
+                        </a>
+                    </li>
+                    <li class="col-lg-4 col-xs-6">
+                        <a href="/standard-page/"  >
+                            <i class="fa fa-angle-right"></i>Standard Page
+                        </a>
+                    </li>
+                    <li class="col-lg-4 col-xs-6">
+                        <a href="/advanced-page/"  >
+                            <i class="fa fa-angle-right"></i>Advanced Page
+                        </a>
+                    </li>
+                    <li class="col-lg-4 col-xs-6">
+                        <a href="/blog/"  >
+                            <i class="fa fa-angle-right"></i>Blog
+                        </a>
+                    </li>
+                    <li class="col-lg-4 col-xs-6">
+                        <a href="/contact/"  >
+                            <i class="fa fa-angle-right"></i>Contact
+                        </a>
+                    </li>
+                    <li class="col-lg-4 col-xs-6">
+                        <a href="https://uskinned.net" target="blank"  title="Link will open in a new window/tab" >
+                            <i class="fa fa-angle-right"></i>uSkinned<i class="fa fa-external-link after"></i>
+                        </a>
+                    </li>
+				</ul>
+			</nav> 
+		</div>
+
+
+                </div>
+
+                <div class="col-md-3 col-md-offset-1 col-xs-12">
+
+                            <div class="social">
+	        <p class="heading">Social pages</p>
+	        <nav>
+		        <ul>
+			        <li class="facebook"><a href="https://www.facebook.com/uskinned" class="symbol" target="_blank" title="Link will open in a new window/tab">facebook</a></li>
+	                			        <li class="twitter"><a href="https://twitter.com/uskinned" class="symbol" target="_blank" title="Link will open in a new window/tab">twitter</a></li>
+	                			        <li class="linkedin"><a href="https://www.linkedin.com/company/uskinned" class="symbol" target="_blank" title="Link will open in a new window/tab">linkedin</a></li>
+	                			        <li class="google_plus"><a href="https://plus.google.com/+UskinnedNet/posts" class="symbol" target="_blank" title="Link will open in a new window/tab">googleplus</a></li>
+		            			        <li class="pinterest"><a href="http://www.pinterest.com/uskinned/" class="symbol" target="_blank" title="Link will open in a new window/tab">pinterest</a></li>
+                    	                	                	                	                	                <li class="youtube"><a href="https://www.youtube.com/channel/UCpo8gpDYUM6nSeaVgDnXWGg" class="symbol" target="_blank" title="Link will open in a new window/tab">youtube</a></li>
+                    	                <li class="rss"><a href="/blog/rss/" class="symbol" target="_blank" title="Link will open in a new window/tab">rss</a></li>
+		    </ul>
+	    </nav>
+    </div>   
+
+
+                </div>
+
+            </div>
+            <!--// ROW -->
+            <!-- ROW -->
+            <div class="row">
+
+                <div class="col-sm-12">
+
+                    <nav class="footer">
+                        <ul class="nav">
+                            <li class="copyright"><div>&copy; 2017</div></li>
+                            	
+		    <li>
+                <a href="/privacy-policy/"  >Privacy Policy</a>                                       
+		    </li>
+		    <li>
+                <a href="/terms-and-conditions/"  >Terms and Conditions</a>                                       
+		    </li>
+		    <li>
+                <a href="/sitemap/"  >Sitemap</a>                                       
+		    </li>
+
+                            <li class="site_credit pull-right">
+                                <div>a premium Umbraco theme from</div>
+                                <a target="_blank" title="Link will open in a new window/tab" href="http://www.uskinned.net"><span>uSkinned&trade;</span></a>
+                            </li>
+                        </ul>
+                    </nav>
+
+                </div>
+
+            </div>
+            <!--// ROW -->
+
+        </div>
+    </footer>
+    <!--// FOOTER -->
+    <!-- BACK TO TOP -->
+    <span id="top-link-block">
+        <a href="#top" class="well well-sm" onclick="$('html,body').animate({scrollTop:0},'slow');return false;">
+            <i class="glyphicon glyphicon-chevron-up"></i>
+        </a>
+    </span>
+    <!--// BACK TO TOP -->
+
+</div>
+<!--// SITE -->
+
+
+</body>
+</html>

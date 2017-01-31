@@ -1,0 +1,458 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@{
+    Layout = null;
+	var home = @CurrentPage.Site();
+}
+
+
+
+<!doctype html>
+<!--[if lt IE 7 ]> <html lang="en" class="no-js ie6"> <![endif]-->
+<!--[if IE 7 ]>    <html lang="en" class="no-js ie7"> <![endif]-->
+<!--[if IE 8 ]>    <html lang="en" class="no-js ie8"> <![endif]-->
+<!--[if IE 9 ]>    <html lang="en" class="no-js ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!-->
+<html lang="en" class="no-js">
+<!--<![endif]-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+    <meta name="description" content='Welcome to uSkinned.net'>
+    
+    <link rel="canonical" href="http://synergy-bs.uskinned.net/"/>
+<title>Home - uSkinned Synergy with Bootstrap Starter Kit</title>	<meta property="og:type" content="website">
+    <meta property="og:title" content="Home - uSkinned Synergy with Bootstrap Starter Kit" />
+    <meta property="og:image" content="http://synergy-bs.uskinned.net/media/1002/og-uskinned.png" />
+    <meta property="og:url" content="http://synergy-bs.uskinned.net/" />
+    <meta property="og:description" content="" />
+    <meta property="og:site_name" content="uSkinned Synergy with Bootstrap Starter Kit" />	
+
+
+    <!-- WEB FONT -->
+	<link href='http://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+
+    <!-- STYLESHEETS -->
+    <link rel="stylesheet" href="/css/bootstrap.css">
+    <link rel="stylesheet" href="/css/base.css">
+    <link rel="stylesheet" href="/css/plugins.css">
+    <link rel="stylesheet" href="/css/layout.css">
+    <link rel="stylesheet" href="/css/palette.css">
+	
+    <!-- INTERNAL STYLES -->
+        <style>
+        #site {
+            /*max-width: 1400px;*/
+        }
+
+        header #logo a {
+			text-indent:-9999px;
+            width: 220px;
+            height: 49px;
+            background-image: url('/media/1081/synergy_logo.jpg?width=220&amp;height=70');
+        }
+
+        
+    </style>
+
+
+    <!-- SCRIPTS -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
+    <script src="/scripts/bootstrap.js"></script>
+    <script src="/scripts/plugins.js"></script>
+    <script src="/scripts/application.js"></script>
+    <script src="/scripts/jquery.validate.min.js"></script>
+    <script src="/scripts/jquery.validate.unobtrusive.min.js"></script>
+    <script src="/scripts/jquery.unobtrusive-ajax.min.js"></script>
+
+	<!--[if IE]>
+    <link rel="stylesheet" href="/css/ie.css">
+    <![endif]-->
+	
+    <!--[if lt IE 9]>
+    <script src="//oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="//oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+	
+    <!-- ICONS -->
+            <link rel="shortcut icon" href="/media/1001/logo.png?width=32&height=32" type="image/png" />
+        <link rel="apple-touch-icon" sizes="57x57" href="/media/1001/logo.png?width=57&height=57">
+        <link rel="apple-touch-icon" sizes="60x60" href="/media/1001/logo.png?width=60&height=60">
+        <link rel="apple-touch-icon" sizes="72x72" href="/media/1001/logo.png?width=72&height=72">
+        <link rel="apple-touch-icon" sizes="76x76" href="/media/1001/logo.png?width=76&height=76">
+        <link rel="apple-touch-icon" sizes="114x114" href="/media/1001/logo.png?width=114&height=114">
+        <link rel="apple-touch-icon" sizes="120x120" href="/media/1001/logo.png?width=120&height=120">
+        <link rel="apple-touch-icon" sizes="144x144" href="/media/1001/logo.png?width=144&height=144">
+        <link rel="apple-touch-icon" sizes="152x152" href="/media/1001/logo.png?width=152&height=152">
+        <link rel="apple-touch-icon" sizes="180x180" href="/media/1001/logo.png?width=180&height=180">
+        <link rel="icon" type="image/png" href="/media/1001/logo.png?width=16&height=16" sizes="16x16">
+        <link rel="icon" type="image/png" href="/media/1001/logo.png?width=32&height=32" sizes="32x32">
+        <link rel="icon" type="image/png" href="/media/1001/logo.png?width=96&height=96" sizes="96x96">
+        <link rel="icon" type="image/png" href="/media/1001/logo.png?width=192&height=192" sizes="192x192">
+        <meta name="msapplication-square70x70logo" content="/media/1001/logo.png?width=70&height=70" />
+        <meta name="msapplication-square150x150logo" content="/media/1001/logo.png?width=150&height=150" />
+        <meta name="msapplication-square310x310logo" content="/media/1001/logo.png?width=310&height=310" />
+
+
+
+    
+    
+
+</head>
+
+<body class="advanced-page">
+	
+	
+
+<!-- SITE -->
+<div id="site">
+    
+    <!-- HEADER -->
+    <header>
+	<div class="container">
+		
+		<!-- LOGO -->
+		    <div id="logo"><a href="/">uSkinned Synergy with Bootstrap Starter Kit</a></div>
+
+
+		<!--// LOGO -->
+		
+		<!-- NAVIGATION -->
+		<div class="navigation">
+
+			<!-- EXPAND -->
+			<a class="expand">
+				<em>Menu</em>
+				<span class="line top"></span>
+				<span class="line mid"></span>
+				<span class="line bottom"></span>
+			</a>
+			<!--// EXPAND -->
+			<!-- REVEAL -->
+			<div class="reveal">
+
+				
+        <nav class="main">
+            <ul>
+                        <li >
+                            <a href="/"  class="active"  >
+                                <span>
+                                    Home
+                                </span>
+                            </a>
+                                                    </li>
+                        <li  class="has_child">
+                            <a href="/listing/"   >
+                                <span>
+                                    Listing
+                                </span>
+                            </a>
+                                <i class="fa fa-angle-down after"></i>
+                                <ul>
+            <li  class="has_child">
+                <a  href="/listing/2nd-level-page/">
+                    <span>
+2nd Level Page                    </span>
+                </a>
+                    <i class="fa fa-angle-down after hidden-md hidden-lg"></i><i class="fa fa-angle-right after hidden-sm hidden-xs"></i>
+                    <ul>
+            <li >
+                <a  href="/listing/2nd-level-page/3rd-level-page/">
+                    <span>
+3rd Level Page                    </span>
+                </a>
+                            </li>
+    </ul>
+            </li>
+            <li  class="has_child">
+                <a  href="/listing/advanced-2nd-level-page/">
+                    <span>
+Advanced 2nd Level Page                    </span>
+                </a>
+                    <i class="fa fa-angle-down after hidden-md hidden-lg"></i><i class="fa fa-angle-right after hidden-sm hidden-xs"></i>
+                    <ul>
+            <li >
+                <a  href="/listing/advanced-2nd-level-page/advanced-3rd-level-page/">
+                    <span>
+Advanced 3rd Level Page                    </span>
+                </a>
+                            </li>
+    </ul>
+            </li>
+    </ul>
+                        </li>
+                        <li  class="has_child">
+                            <a href="/layouts/"   >
+                                <span>
+                                    Layouts
+                                </span>
+                            </a>
+                                <i class="fa fa-angle-down after"></i>
+                                <ul>
+            <li >
+                <a  href="/layouts/content-left/">
+                    <span>
+Content Left                    </span>
+                </a>
+                            </li>
+            <li >
+                <a  href="/layouts/content-right/">
+                    <span>
+Content Right                    </span>
+                </a>
+                            </li>
+            <li >
+                <a  href="/layouts/content-center-navigation-left/">
+                    <span>
+Content Center (Navigation left)                    </span>
+                </a>
+                            </li>
+            <li >
+                <a  href="/layouts/content-center-navigation-right/">
+                    <span>
+Content Center (Navigation right)                    </span>
+                </a>
+                            </li>
+            <li >
+                <a  href="/layouts/content-full-width/">
+                    <span>
+Content Full Width                    </span>
+                </a>
+                            </li>
+    </ul>
+                        </li>
+                        <li >
+                            <a href="/standard-page/"   >
+                                <span>
+                                    Standard Page
+                                </span>
+                            </a>
+                                                    </li>
+                        <li >
+                            <a href="/advanced-page/"   >
+                                <span>
+                                    Advanced Page
+                                </span>
+                            </a>
+                                                    </li>
+                        <li >
+                            <a href="/blog/"   >
+                                <span>
+                                    Blog
+                                </span>
+                            </a>
+                                                    </li>
+                        <li >
+                            <a href="/contact/"   >
+                                <span>
+                                    Contact
+                                </span>
+                            </a>
+                                                    </li>
+            </ul>
+        </nav>
+
+
+
+
+					
+    <nav class="top col-md-9 col-md-pull-3 col-sm-10 col-sm-pull-2 pull-right">
+        <ul class="pull-right">
+                    <li>
+                        <a class="secondary_colour_1-text" href="/privacy-policy/"  >Privacy Policy</a>      
+                    </li>
+                    <li>
+                        <a class="secondary_colour_1-text" href="/sitemap/"  >Sitemap</a>      
+                    </li>
+
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fa fa-user highlight"></i>Members Area<i class="fa fa-angle-down after"></i></a>
+                        <ul class="dropdown-menu pull-right" role="menu">
+                            <li><a href="/login/"><i class="fa fa-sign-in"></i>Login</a></li>
+                        </ul>
+                    </li>
+        </ul>                                                            
+	</nav> 
+
+
+
+
+				<!-- SITE SEARCH -->
+					<div class="site_search col-md-3 col-sm-2 col-xs-12">
+		<form class="navbar-form" role="search" action="/search-results/" method="get" name="searchForm">
+			<div class="form-group">
+                <input type="text" class="form-control" id="search_field" name="search_field" placeholder='Search the site'>
+			</div>
+			<button type="submit" class="btn primary_colour_1-text"><i class="glyphicon glyphicon-search"></i></button>
+		</form>
+	</div>
+
+
+				<!--// SITE SEARCH -->
+
+			</div>
+			<!--// REVEAL -->
+		</div>
+		<!--// NAVIGATION -->
+				
+	</div>
+    </header>
+    <!--// HEADER -->
+	
+    <!-- BREADCRUMB -->
+    
+
+    <!--// BREADCRUMB -->
+				
+			@RenderBody()	
+				
+				
+				 <!-- FOOTER -->
+    <footer class="primary_colour_1-bg">
+        <div class="container">
+
+            <!-- ROW -->
+            <div class="row">
+
+                <div class="col-md-3 col-sm-5 col-xs-12">
+
+                    <!-- COMPANY DETAILS -->
+                        <div class="company_details">
+		<p class="heading">uSkinned</p>
+			<div class="text">
+		<address>
+			<p>St Georges Buildings <br />5 St Vincent Place<br />Glasgow G1 2DH</p>
+		</address>
+		</div>
+			<div class="text">
+		<p>Email. <a href="mailto:hello@uskinned.net">hello@uskinned.net</a></p>
+		</div>
+	</div> 
+
+                    <!--// COMPANY DETAILS -->
+
+                </div>
+
+                <div class="col-md-5 col-sm-6 col-xs-12">
+
+                    	
+        <div class="quick_links">
+	        <p class="heading">Quick links</p>
+					<nav class="row">
+			    <ul>
+                    <li class="col-lg-4 col-xs-6">
+                        <a href="/listing/"  >
+                            <i class="fa fa-angle-right"></i>Listing
+                        </a>
+                    </li>
+                    <li class="col-lg-4 col-xs-6">
+                        <a href="/layouts/"  >
+                            <i class="fa fa-angle-right"></i>Layouts
+                        </a>
+                    </li>
+                    <li class="col-lg-4 col-xs-6">
+                        <a href="/standard-page/"  >
+                            <i class="fa fa-angle-right"></i>Standard Page
+                        </a>
+                    </li>
+                    <li class="col-lg-4 col-xs-6">
+                        <a href="/advanced-page/"  >
+                            <i class="fa fa-angle-right"></i>Advanced Page
+                        </a>
+                    </li>
+                    <li class="col-lg-4 col-xs-6">
+                        <a href="/blog/"  >
+                            <i class="fa fa-angle-right"></i>Blog
+                        </a>
+                    </li>
+                    <li class="col-lg-4 col-xs-6">
+                        <a href="/contact/"  >
+                            <i class="fa fa-angle-right"></i>Contact
+                        </a>
+                    </li>
+                    <li class="col-lg-4 col-xs-6">
+                        <a href="https://uskinned.net" target="blank"  title="Link will open in a new window/tab" >
+                            <i class="fa fa-angle-right"></i>uSkinned<i class="fa fa-external-link after"></i>
+                        </a>
+                    </li>
+				</ul>
+			</nav> 
+		</div>
+
+
+                </div>
+
+                <div class="col-md-3 col-md-offset-1 col-xs-12">
+
+                            <div class="social">
+	        <p class="heading">Social pages</p>
+	        <nav>
+		        <ul>
+			        <li class="facebook"><a href="https://www.facebook.com/uskinned" class="symbol" target="_blank" title="Link will open in a new window/tab">facebook</a></li>
+	                			        <li class="twitter"><a href="https://twitter.com/uskinned" class="symbol" target="_blank" title="Link will open in a new window/tab">twitter</a></li>
+	                			        <li class="linkedin"><a href="https://www.linkedin.com/company/uskinned" class="symbol" target="_blank" title="Link will open in a new window/tab">linkedin</a></li>
+	                			        <li class="google_plus"><a href="https://plus.google.com/+UskinnedNet/posts" class="symbol" target="_blank" title="Link will open in a new window/tab">googleplus</a></li>
+		            			        <li class="pinterest"><a href="http://www.pinterest.com/uskinned/" class="symbol" target="_blank" title="Link will open in a new window/tab">pinterest</a></li>
+                    	                	                	                	                	                <li class="youtube"><a href="https://www.youtube.com/channel/UCpo8gpDYUM6nSeaVgDnXWGg" class="symbol" target="_blank" title="Link will open in a new window/tab">youtube</a></li>
+                    	                <li class="rss"><a href="/blog/rss/" class="symbol" target="_blank" title="Link will open in a new window/tab">rss</a></li>
+		    </ul>
+	    </nav>
+    </div>   
+
+
+                </div>
+
+            </div>
+            <!--// ROW -->
+            <!-- ROW -->
+            <div class="row">
+
+                <div class="col-sm-12">
+
+                    <nav class="footer">
+                        <ul class="nav">
+                            <li class="copyright"><div>&copy; 2017</div></li>
+                            	
+		    <li>
+                <a href="/privacy-policy/"  >Privacy Policy</a>                                       
+		    </li>
+		    <li>
+                <a href="/terms-and-conditions/"  >Terms and Conditions</a>                                       
+		    </li>
+		    <li>
+                <a href="/sitemap/"  >Sitemap</a>                                       
+		    </li>
+
+                            <li class="site_credit pull-right">
+                                <div>a premium Umbraco theme from</div>
+                                <a target="_blank" title="Link will open in a new window/tab" href="http://www.uskinned.net"><span>uSkinned&trade;</span></a>
+                            </li>
+                        </ul>
+                    </nav>
+
+                </div>
+
+            </div>
+            <!--// ROW -->
+
+        </div>
+    </footer>
+    <!--// FOOTER -->
+    <!-- BACK TO TOP -->
+    <span id="top-link-block">
+        <a href="#top" class="well well-sm" onclick="$('html,body').animate({scrollTop:0},'slow');return false;">
+            <i class="glyphicon glyphicon-chevron-up"></i>
+        </a>
+    </span>
+    <!--// BACK TO TOP -->
+
+</div>
+<!--// SITE -->
+
+	
+
+
+
+</body>
+</html>
