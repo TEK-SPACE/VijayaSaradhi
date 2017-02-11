@@ -244,3 +244,6 @@ ModelManifest.xml
 /Voice.Web.UI/App_Data/Logs
 /Voice.Web.UI/App_Data/NuGetBackup/20170125-134203
 /Voice.Web.UI/App_Data/TEMP
+/Study.Web.UI/App_Data/cache
+/Study.Web.UI/App_Data/Logs
+/Study.Web.UI/App_Data/TEMP

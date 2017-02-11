@@ -1,0 +1,348 @@
+
+/* 	--------------------------------------------------
+    rbtekspace.com
+
+	PALETTE
+    -------------------------------------------------- */
+
+
+/* 	--------------------------------------------------
+	TABLE OF CONTENTS
+    -------------------------------------------------- 
+
+	1.0 BACKGROUNDS
+	2.0 TEXT
+	3.0 BORDERS
+	4.0 BOX SHADOWS
+	
+	
+	COLOURS 
+	
+	primary_colour_1	#0b5a9c		11,90,156
+	primary_colour_2	#66c989		102,201,137
+	secondary_colour_1	#2e89b6		46,137,182
+	secondary_colour_2	#eeeeee		238,238,238
+	secondary_colour_3 	#ffffff		255,255,255
+	
+	
+*/
+
+
+
+/*	--------------------------------------------------
+	1.0 BACKGROUNDS
+	-------------------------------------------------- */
+	
+	.primary_colour_1-bg,
+	nav.main, header::after,
+	.navigation a.expand span,
+	ul.slick-dots li.slick-active button {
+		background-color:#0b5a9c; background-color:rgba(11,90,156,1);
+		}
+		.primary_colour_1-bg.bg-perc_90,
+		.slideshow .text,
+		.image .text {
+			background-color:#0b5a9c; background-color:rgba(11,90,156,0.9);
+			}
+	
+	.primary_colour_2-bg,
+	.navigation nav.main ul li ul li a.active::before, .navigation nav.main ul li ul li a.active:hover::before {
+		background-color:#66c989; background-color:rgba(102,201,137,1);
+		}
+		.primary_colour_2-bg.bg-perc_90 {
+			background-color:#66c989; background-color:rgba(102,201,137,0.9);
+			}
+		
+	.secondary_colour_1-bg,
+	nav.main ul li:hover, nav.main ul li:hover ul,
+	nav.main ul li.open, nav.main ul li.open ul {
+		background-color:#2e89b6; background-color:rgba(46,137,182,1);
+		}
+		.secondary_colour_1-bg.bg-perc_90,
+	  	nav.main ul a.active {
+			background-color:#2e89b6; background-color:rgba(46,137,182,0.9);
+	  		}
+		.secondary_colour_1-bg.bg-perc_30,
+	  	nav.main ul a.active,
+		blockquote::before, blockquote::after {
+			background-color:#2e89b6; background-color:rgba(46,137,182,0.3);
+	  		}
+		
+	.secondary_colour_2-bg,
+	body,
+	thead {
+		background-color:#eeeeee; background-color:rgba(238,238,238,1);
+		}
+		.secondary_colour_2-bg.bg-perc_90 {
+			background-color:#eeeeee; background-color:rgba(238,238,238,0.9);
+			}
+		
+	.secondary_colour_3-bg,
+	#site, header,
+	.primary_colour_1-bg .nav-tabs > li > a:hover, 
+	.primary_colour_2-bg .nav-tabs > li > a:hover, 
+	.secondary_colour_1-bg .nav-tabs > li > a:hover,
+	.primary_colour_1-bg ul.slick-dots li.slick-active button, .primary_colour_2-bg ul.slick-dots li.slick-active button, .secondary_colour_1-bg ul.slick-dots li.slick-active button {
+		background-color:#ffffff; background-color:rgba(255,255,255,1);
+		}	
+		.secondary_colour_3-bg.bg-perc_90,
+		.ajax_wrap .ajax_loading {
+			background-color:#ffffff; background-color:rgba(255,255,255,0.9);
+			}
+		.navigation nav.main ul li ul li a:hover::before,
+		.primary_colour_1-bg .nav-tabs > li > a, .primary_colour_1-bg .nav-tabs > li > a:focus,
+		.primary_colour_2-bg .nav-tabs > li > a, .primary_colour_2-bg .nav-tabs > li > a:focus,
+		.secondary_colour_1-bg .nav-tabs > li > a, .secondary_colour_1-bg .nav-tabs > li > a:focus {
+			background-color:#ffffff; background-color:rgba(255,255,255,0.3);
+			}	
+		.btn:hover::after,
+		.primary_colour_1-bg blockquote::before, .primary_colour_1-bg blockquote::after,
+		.primary_colour_2-bg blockquote::before, .primary_colour_2-bg blockquote::after,
+		.secondary_colour_1-bg blockquote::before, .secondary_colour_1-bg blockquote::after {
+			background-color:#ffffff; background-color:rgba(255,255,255,0.25);
+			}
+		.primary_colour_1-bg .nav-tabs > li.active > a, .primary_colour_1-bg .nav-tabs > li.active > a:hover, .primary_colour_1-bg .nav-tabs > li.active > a:focus,
+		.primary_colour_2-bg .nav-tabs > li.active > a, .primary_colour_2-bg .nav-tabs > li.active > a:hover, .primary_colour_2-bg .nav-tabs > li.active > a:focus,
+		.secondary_colour_1-bg .nav-tabs > li.active > a, .secondary_colour_1-bg .nav-tabs > li.active > a:hover, .secondary_colour_1-bg .nav-tabs > li.active > a:focus {
+			background-color:#ffffff; background-color:rgba(255,255,255,0.15);
+			}
+		
+	.ajax_wrap .ajax_loading .loading span.message {
+		background-image:url('/images/icons/loading_on_secondary_colour_3.gif');
+		}
+		
+	a .overlayicon {
+		background-color:rgba(0,0,0,0);
+		}
+	.videopod a .overlayicon,
+	.video a .overlayicon,
+	.btn.secondary_colour_3-bg:hover::after {
+		background-color:rgba(0,0,0,0.25);
+		}
+	a:hover .overlayicon {
+		background-color:rgba(0,0,0,0.75);
+		}
+
+	.field-validation-error {
+		background-color:#a94442;
+		}
+
+
+	.slick-prev, .slick-next {
+		background-color:rgba(255,255,255,0.8);
+		}
+	.slick-prev:hover, .slick-next:hover {
+		background-color:rgba(255,255,255,1);
+		}
+		
+	@media (max-width:768px) {		
+		
+	.navigation a.expand { 
+		}
+	.navigation nav.main ul li i {
+		background-color:#66c989; background-color:rgba(102,201,137,1);
+		}	
+		
+	}
+	
+	@media (min-width:768px) {
+	
+	.secondary_colour_2-bg.image_carousel .slick-prev, .secondary_colour_3-bg.image_carousel .slick-prev,
+	.secondary_colour_2-bg.image_carousel .slick-next, .secondary_colour_3-bg.image_carousel .slick-next {
+		background-color:#0b5a9c; background-color:rgba(11,90,156,1);
+		}
+		
+	}	
+
+
+
+/*	--------------------------------------------------
+	2.0 TEXT
+	-------------------------------------------------- */
+
+	body {
+		color:#6e6e6e;
+		}
+	a {
+		color:#2e89b6; color:rgba(46,137,182,1);
+		}
+	.primary_colour_1-bg .umb-grid, .primary_colour_2-bg .umb-grid, .secondary_colour_1-bg .umb-grid,
+	.primary_colour_1-bg .umb-grid h1, .primary_colour_1-bg .umb-grid h2, .primary_colour_1-bg .umb-grid h3, .primary_colour_1-bg .umb-grid h4, .primary_colour_1-bg .umb-grid h5, .primary_colour_1-bg .umb-grid h6,
+	.primary_colour_2-bg .umb-grid h1, .primary_colour_2-bg .umb-grid h2, .primary_colour_2-bg .umb-grid h3, .primary_colour_2-bg .umb-grid h4, .primary_colour_2-bg .umb-grid h5, .primary_colour_2-bg .umb-grid h6,
+	.secondary_colour_1-bg .umb-grid h1, .secondary_colour_1-bg .umb-grid h2, .secondary_colour_1-bg .umb-grid h3, .secondary_colour_1-bg .umb-grid h4, .secondary_colour_1-bg .umb-grid h5, .secondary_colour_1-bg .umb-grid h6,
+	.primary_colour_1-bg nav a, .primary_colour_2-bg nav a, .secondary_colour_1-bg nav a,
+	.primary_colour_1-bg .text a, .primary_colour_2-bg .text a, .secondary_colour_1-bg .text a {
+		color:#ffffff; color:rgba(255,255,255,1);
+		}	
+	
+	.primary_colour_1-text,
+	.heading, h1, h2, h3, h4, h5, h6,
+	thead,
+	.slick-prev, .slick-next,
+	.btn.primary_colour_1-text:hover, .btn.primary_colour_1-text:focus,
+	.tabbed .panel-heading .panel-title a,
+	.primary_colour_1-bg .nav-tabs > li > a, .primary_colour_1-bg .nav-tabs > li > a:hover, .primary_colour_1-bg .nav-tabs > li > a:focus,
+	.primary_colour_2-bg .nav-tabs > li > a, .primary_colour_2-bg .nav-tabs > li > a:hover, .primary_colour_2-bg .nav-tabs > li > a:focus,
+	.secondary_colour_1-bg .nav-tabs > li > a, .secondary_colour_1-bg .nav-tabs > li > a:hover, .secondary_colour_1-bg .nav-tabs > li > a:focus,
+	nav.sub ul > li.active > a {
+		color:#0b5a9c; color:rgba(11,90,156,1);
+		}
+		.primary_colour_1-text.text-perc_90 {
+			color:#0b5a9c; color:rgba(11,90,156,0.9);
+			}
+			
+	.primary_colour_2-text {
+		color:#66c989; color:rgba(102,201,137,1);
+		}
+		.primary_colour_2-text.text-perc_90 {
+			color:#66c989; color:rgba(102,201,137,0.9);
+			}
+			
+	.secondary_colour_1-text {
+		color:#2e89b6; color:rgba(46,137,182,1);
+		}
+		.secondary_colour_1-text.text-perc_90 {
+			color:#2e89b6; color:rgba(46,137,182,0.9);
+			}
+			
+	.green2-text {
+		color:#66c989; color:rgba(102,201,137,1);
+		}
+		.green2-text.text-perc_90 {
+			color:#66c989; color:rgba(102,201,137,0.9);
+			}
+			
+	.secondary_colour_2-text {
+		color:#eeeeee; color:rgba(238,238,238,1);
+		}
+		.grey2-text.text-perc_90 {
+			color:#eeeeee; color:rgba(238,238,238,0.9);
+			}
+			
+	.grey2-text {
+		color:#f6f6f6; color:rgba(246,246,246,1);
+		}
+		.grey2-text.text-perc_90 {
+			color:#f6f6f6; color:rgba(246,246,246,0.9);
+			}
+			
+	.secondary_colour_3-text,
+	footer, footer .heading, footer a,
+	nav.main ul li a, nav.main ul li:hover a, nav.main ul li:hover ul a,
+	.btn.secondary_colour_3-text:hover, .btn.secondary_colour_3-text:focus,
+	.primary_colour_1-bg .nav-tabs > li > a, .primary_colour_1-bg .nav-tabs > li.active > a:hover, .primary_colour_1-bg .nav-tabs > li.active > a:focus,
+	.primary_colour_2-bg .nav-tabs > li > a, .primary_colour_2-bg .nav-tabs > li.active > a:hover, .primary_colour_2-bg .nav-tabs > li.active > a:focus,
+	.secondary_colour_1-bg .nav-tabs > li > a, .secondary_colour_1-bg .nav-tabs > li.active > a:hover, .secondary_colour_1-bg .nav-tabs > li.active > a:focus,
+	.navigation nav.main ul li i {
+		color:#ffffff; color:rgba(255,255,255,1);
+		}	 
+		.secondary_colour_3-text.text-perc_90 {
+			color:#ffffff; color:rgba(255,255,255,0.9);
+			}
+		
+	fieldset label em.req {
+		color:#a94442; color:rgba(169,68,68,1);
+		}
+	a .overlayicon i,
+	.field-validation-error {
+		color:#ffffff; color:rgba(255,255,255,1);
+		}
+		
+	@media (min-width:768px) {	
+		
+	.navigation nav.main ul li i,
+	.secondary_colour_2-bg.image_carousel .slick-prev, .secondary_colour_3-bg.image_carousel .slick-prev,
+	.secondary_colour_2-bg.image_carousel .slick-next, .secondary_colour_3-bg.image_carousel .slick-next {
+		color:#ffffff; color:rgba(255,255,255,0.75);
+		}
+		
+	}
+	
+	
+
+/*	--------------------------------------------------
+	3.0 BORDERS
+	-------------------------------------------------- */
+	
+	.primary_colour_1-borders,
+	ul.slick-dots li button {
+		border-color:#0b5a9c; border-color:rgba(11,90,156,1);
+		}
+		.primary_colour_1-borders.borders-perc_90 {
+			border-color:#0b5a9c; border-color:rgba(11,90,156,0.9);
+			}
+			
+	.primary_colour_2-borders {
+		border-color:#66c989; border-color:rgba(102,201,137,1);
+		}
+		.primary_colour_2-borders.borders-perc_90 {
+			border-color:#66c989; border-color:rgba(102,201,137,0.9);
+			}
+			
+	.secondary_colour_1-borders,
+	.navigation nav.main, header::after {
+		border-color:#2e89b6; border-color:rgba(46,137,182,1);
+		}
+		.secondary_colour_1-borders.borders-perc_90 {
+			border-color:#2e89b6; border-color:rgba(46,137,182,0.9);
+			}
+			
+	.secondary_colour_2-borders,
+	.promo_pods .listing, .promo_pods .listing .item,
+	.tabbed .tab-content,
+	nav.sub ul, nav.sub ul li,
+	table, td {
+		border-color:#eeeeee; border-color:rgba(238,238,238,1);
+		}
+		.secondary_colour_2-borders.borders-perc_90 {
+			border-color:#eeeeee; border-color:rgba(238,238,238,0.9);
+			}
+			
+	.secondary_colour_3-borders,
+	nav.sub .heading a,
+	.primary_colour_1-bg ul.slick-dots li button, .primary_colour_2-bg ul.slick-dots li button, .secondary_colour_1-bg ul.slick-dots li button {
+		border-color:#ffffff; border-color:rgba(255,255,255,1);
+		}
+		.secondary_colour_3-borders.borders-perc_90 {
+			border-color:#ffffff; border-color:rgba(255,255,255,0.9);
+			}
+		.navigation nav.main ul,
+		.navigation nav.main ul li {
+			border-color:#ffffff; border-color:rgba(255,255,255,0.3);
+			}
+		.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+			border-bottom-color:#ffffff; border-bottom-color:rgba(255,255,255,1);
+			}	
+
+	.input-validation-error,
+	.input-validation-error:focus {
+		border-color:#a94442;
+		}	
+	
+	
+
+/*	--------------------------------------------------
+	4.0 BOX SHADOWS
+	-------------------------------------------------- */
+	
+	#site {
+		box-shadow:0px 0 60px 0 rgba(0,0,0,0.1);
+		}
+	header.clone {
+		box-shadow:0px 10px 10px 0 rgba(0,0,0,0.05);
+		}
+	.btn {
+		box-shadow:0px 2px 0px rgba(0,0,0,0.2);
+		}	
+	.input-validation-error:focus {
+		box-shadow:0 1px 1px rgba(0,0,0,0.075) inset, 0 0 8px rgba(169,68,68,0.5);
+		}
+
+
+
+/*	--------------------------------------------------
+	END
+	-------------------------------------------------- */
+	
+
+/* EDITOR PROPERTIES - PLEASE DON'T DELETE THIS LINE TO AVOID DUPLICATE PROPERTIES */
